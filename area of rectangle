@@ -1,0 +1,12 @@
+class Area {
+public static void main(String[]args){
+
+int l=5;
+System.out.println("the length is :"+l);
+int b=6;
+System.out.println("the breadth is :"+b);
+
+int area= l*b;
+System.out.println("area of rectangle is="+ area);
+}
+}

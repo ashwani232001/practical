@@ -1,0 +1,30 @@
+class Market{
+    int num1 , num2;
+    public void shops(){
+        System.out.println("mobile shops");
+    }
+    public String getmemobile(int cost){
+       if (cost>=10)
+        return "oppo";
+       else
+           return "redmi";
+    }
+    public int add(int n1, int n2){
+        int r = n1+n2;
+        return r;
+    }
+}
+public class Mobile {
+    public static void main(String[] args) {
+        Market obj = new Market();
+        obj.shops();
+        String str = obj.getmemobile(5);
+        System.out.println(str);
+        int sum = obj.add(4,6);
+        obj.num1=0;
+        obj.num2=0;
+        System.out.println(obj.num1+obj.num2);
+        System.out.println(sum);
+
+    }
+}
